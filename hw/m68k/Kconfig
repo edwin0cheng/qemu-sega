@@ -27,6 +27,9 @@ config Q800
     select IOSB
     select ASC
 
+config SEGA_GENESIS
+    bool
+
 config M68K_VIRT
     bool
     select M68K_IRQC
