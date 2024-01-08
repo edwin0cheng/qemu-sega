@@ -14,6 +14,10 @@ make -j6
 
 ```
 
+```bash
+./m68k-softmmu/qemu-system-m68k -M sega-genesis -serial mon:stdio -singlestep -icount shift=7
+```
+
 ## References
 https://github.com/transistorfet/moa
 https://jabberwocky.ca/posts/2021-11-making_an_emulator.html#simulating-the-cpu
